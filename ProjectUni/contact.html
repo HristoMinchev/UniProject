@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+    <div class="cart-icon-container">
+      <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+      <span id="cart-count">0</span>
+    </div>
+  </nav>
+  
+
+  <section id="contact">
+    <h2>We'd Love to Hear from You!</h2>
+    <p>Have a question or want to make a reservation? Get in touch with us:</p>
+    <div class="contact-info">
+      <p><strong>Address:</strong> g.k. Ovcha Kupel 2, st. "Montevideo" 21, 1618 Sofia</p>
+      <p><strong>Phone:</strong> +359 982 422 3123</p>
+      <p><strong>Email:</strong> info@gmail.com</p>
+    </div>
+
+    <form id="contactForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Full Name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email Address" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+      </div>
+      <p></p>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="responseMessage"></div>
+  </section>
+
+  <section class="map">
+    <h2>Where to Find Us</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93862.52132833868!2d23.100284697265614!3d42.678225300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa9b2543b14005%3A0xea8e06ca71a2aede!2z0J3QvtCyINCx0YrQu9Cz0LDRgNGB0LrQuCDRg9C90LjQstC10YDRgdC40YLQtdGC!5e0!3m2!1sbg!2sbg!4v1735890513705!5m2!1sbg!2sbg" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
